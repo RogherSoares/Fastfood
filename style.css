@@ -17,12 +17,18 @@ header{
     padding: 20px;
     text-align: end;
     font-size: 1.6rem;
+    position: fixed;
+    width: 98%;
+}
+
+.conteudo-topo {
+    padding-top: 28rem;
 }
 
 /* Editando os Links */
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(198, 198, 198);
     display: contents;
 }
 a:hover {
@@ -47,6 +53,7 @@ figure{
 img {
     height: 70%;
     width: 70%;
+    border-radius: 5px;
 }
 
 .logo {
@@ -61,12 +68,32 @@ h3 {
     font-family: 'Poppins';
     font-style: bold;
     font-size: 2rem;
+    color: rgb(157, 2, 8);
+}
+
+h4 {
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: 4rem;
+    color: rgb(157, 2, 8);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+h5 {
+    font-family: 'Poppins';
+    font-style: bold;
+    font-size: 4rem;
+    color: rgb(255, 186, 8);
+    text-align: center;
+    padding: 50px;
 }
 
 p {
     font-family: 'Poppins';
     font-style: bold;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
@@ -91,6 +118,16 @@ p {
     background-color: rgb(255, 255, 255);
     text-align: center;
     padding: 1rem;
+}
+
+.lanches {
+    padding-top: 24rem;
+}
+.acompanhamentos {
+    padding-top: 24rem;
+}
+.bebidas {
+    padding-top: 24rem;
 }
 
 /* Editando o Rodapé */
