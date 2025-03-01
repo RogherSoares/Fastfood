@@ -72,10 +72,11 @@ p {
 
 /* Editando os Icones*/
 .icon {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
     margin-left: 20px;
+    bottom: 0;
 }
 
 /* Editando as grids */
