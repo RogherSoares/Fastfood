@@ -50,5 +50,5 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 Rogher Adriano Soares - RA: 24263225-2 
 
 ---
-## 📝 Licença (opcional)
+## 📝 Licença 
 Este projeto foi desenvolvido para fins educacionais.
