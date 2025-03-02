@@ -42,7 +42,7 @@ Este projeto foi desenvolvido como atividade avaliativa da disciplina de Front-E
 ---
 ## 💻 Como Executar
 Clone o repositório:<br>
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/RogherSoares/Fastfood
 <br>Acesse a pasta do projeto e abra o index.html diretamente no navegador.
 
 ---
