@@ -139,3 +139,119 @@ footer {
     text-align: center;
     font-size: 1.6rem;
 }
+
+/* Responsividade do Site */
+
+@media (min-width: 280px) and (max-width: 880px) {
+    /* Cabecalho Responsivo*/
+    header {
+        text-align: center;
+        width: 100%;
+        height: 14%;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .conteudo-topo {
+        padding-top: 15rem;
+    }
+
+    nav {
+        padding-top: 10px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    /* Icones Responsivos*/
+    .icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        margin-left: 10px;
+        bottom: 0;
+    }
+
+    /* Logo Responsiva*/
+    .logo {
+        margin-top: 1rem;
+        width: 57%;
+        height: 55%;
+    }
+
+    /* Fontes Responsivas*/
+    h4 {
+        padding: 20px;
+    }
+    h5 {
+        padding: 15px;
+    }
+
+    /* Grids Responsivas*/
+    .lanches {
+        padding-top: 15.5rem;
+    }
+    .acompanhamentos {
+        padding-top: 15.5rem;
+    }
+    .bebidas {
+        padding-top: 15.5rem;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 1400px) {
+    /* Cabecalho Responsivo*/
+    header {
+        text-align: center;
+        width: 100%;
+        height: 22%;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .conteudo-topo {
+        padding-top: 35.7rem;
+    }
+
+    nav {
+        padding-top: 10px;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 50%;
+    }
+
+    /* Icones Responsivos*/
+    .icon {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        margin-left: 10px;
+        bottom: 0;
+    }
+
+    /* Logo Responsiva*/
+    .logo {
+        margin-top: 1rem;
+        width: 57%;
+        height: 55%;
+    }
+
+    /* Fontes Responsivas*/
+    h4 {
+        padding: 20px;
+    }
+    h5 {
+        padding: 15px;
+    }
+
+    /* Grids Responsivas*/
+    .lanches {
+        padding-top: 37.5rem;
+    }
+    .acompanhamentos {
+        padding-top: 37.5rem;
+    }
+    .bebidas {
+        padding-top: 37.5rem;
+    }
+}
