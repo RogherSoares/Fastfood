@@ -11,9 +11,10 @@ Este é um projeto desenvolvido para a disciplina de Front-End no curso de Anál
 ---
 ## 📸 Captura de Tela do Site
 
-<p >
-  <img src="img/Site.png" alt="Logo do Fast Food" width="800">
-</p>
+  <img src="img/TelaIncial.png" alt="Tela Incial" width="800"><br>
+  <img src="img/Site.png" alt="Logo do Fast Food" width="800"><br>
+  <img src="img/TelaAcomnhamentos.png" alt="Tela de Acompanhamentos" width="800"><br>
+  <img src="img/TelaBebidas.png" alt="Tela de Bebidas" width="800"><br>
 
 ---
 ## 📋 Funcionalidades
@@ -37,7 +38,22 @@ Este é um projeto desenvolvido para a disciplina de Front-End no curso de Anál
 
 ---
 ## 🎓 Sobre o Projeto
-Este projeto foi desenvolvido como atividade avaliativa da disciplina de Front-End, ministrada pelo professor Leonardo Rocha. O objetivo foi aplicar os conhecimentos de estruturação de páginas e estilização.
+Este projeto foi desenvolvido como atividade avaliativa da disciplina de Front-End, ministrada pelo professor Leonardo Rocha. O objetivo foi aplicar os conhecimentos de estruturação de páginas e estilização.<br><br>
+Depois da peimeira conversa com a Maria (Persona) sobre suas idéias, foi decidido que o estabelecimento seria uma Hamburgueria Gourmet.<br>
+Para uma Hamburgueria Gourmet nada melhor que um site moderno e minimalista e que seja intuitivo, sem esquecer de seguir uma paleta de cores ideal para fast food e o botão que direciona o cliente para realizar o pedido no WhatsApp.<br>
+
+<img src="img/IdeiasIniciais.png" alt="Rascunho de Idéias" width="800"><br>
+
+Seguindo as exigências da persona ao entrar no site deveria haver um menu de navegação com 3 opções:<br>
+- Lanches
+- Acompanhamentos
+- Bebidas 
+
+Cada um desses menus deveria levar a sua respectiva categoria. <br>
+
+<img src="img/MapaMental.png" alt="Mapa de Navegação" width="800"><br>
+
+Assim chegamos no site que foi apresentado mais acima neste mesmo documento.
 
 ---
 ## 💻 Como Executar
