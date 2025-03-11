@@ -39,7 +39,7 @@ Este é um projeto desenvolvido para a disciplina de Front-End no curso de Anál
 ---
 ## 🎓 Sobre o Projeto
 Este projeto foi desenvolvido como atividade avaliativa da disciplina de Front-End, ministrada pelo professor Leonardo Rocha. O objetivo foi aplicar os conhecimentos de estruturação de páginas e estilização.<br><br>
-Depois da peimeira conversa com a Maria (Persona) sobre suas idéias, foi decidido que o estabelecimento seria uma Hamburgueria Gourmet.<br>
+Depois da primeira conversa com a Maria (Persona) sobre suas idéias, foi decidido que o estabelecimento seria uma Hamburgueria Gourmet.<br>
 Para uma Hamburgueria Gourmet nada melhor que um site moderno e minimalista e que seja intuitivo, sem esquecer de seguir uma paleta de cores ideal para fast food e o botão que direciona o cliente para realizar o pedido no WhatsApp.<br>
 
 <img src="img/PaletaFastFood.png" alt="Paleta de Cores" width="800"><br>
