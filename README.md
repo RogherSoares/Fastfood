@@ -42,6 +42,10 @@ Este projeto foi desenvolvido como atividade avaliativa da disciplina de Front-E
 Depois da peimeira conversa com a Maria (Persona) sobre suas idéias, foi decidido que o estabelecimento seria uma Hamburgueria Gourmet.<br>
 Para uma Hamburgueria Gourmet nada melhor que um site moderno e minimalista e que seja intuitivo, sem esquecer de seguir uma paleta de cores ideal para fast food e o botão que direciona o cliente para realizar o pedido no WhatsApp.<br>
 
+<img src="img/PaletaFastFood.png" alt="Paleta de Cores" width="800"><br>
+
+Paleta de cores usada como referencia, para que houvesse harmonia nas cores, tendo em vista que o vermelho e o amarelo são cores bem comuns nos fast foods.<br>
+
 <img src="img/IdeiasIniciais.png" alt="Rascunho de Idéias" width="800"><br>
 
 Seguindo as exigências da persona ao entrar no site deveria haver um menu de navegação com 3 opções:<br>
