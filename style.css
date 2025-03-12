@@ -217,6 +217,17 @@ footer {
     .bebidas {
         padding-top: 15.5rem;
     }
+    .voltartopo {
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        text-align: center;
+        z-index: 1;
+        margin-right: 21rem; 
+        margin-bottom: 5rem;
+        width: 60px;
+        height: 60px;
+    }
 }
 
 @media (min-width: 760px) and (max-width: 1400px) {
@@ -275,4 +286,17 @@ footer {
     .bebidas {
         padding-top: 37.5rem;
     }
+    .voltartopo {
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        text-align: center;
+        z-index: 1;
+        margin-right: 45rem; 
+        margin-bottom: 5rem;
+        width: 60px;
+        height: 60px;
+    }
+
+        
 }
