@@ -145,7 +145,7 @@ p {
     position: fixed;
     text-align: center;
     z-index: 1;
-    margin-right: 92rem; 
+    margin-right: 50%; 
     margin-bottom: 2rem;
     width: 60px;
     height: 60px;
@@ -223,7 +223,7 @@ footer {
         position: fixed;
         text-align: center;
         z-index: 1;
-        margin-right: 21rem; 
+        margin-right: 50%; 
         margin-bottom: 5rem;
         width: 60px;
         height: 60px;
@@ -292,7 +292,7 @@ footer {
         position: fixed;
         text-align: center;
         z-index: 1;
-        margin-right: 45rem; 
+        margin-right: 50%; 
         margin-bottom: 5rem;
         width: 60px;
         height: 60px;
