@@ -49,7 +49,7 @@ carrinho.forEach(item => {
 });
 mensagem += `\nTotal: R$ ${total.toFixed(2)}`;
 
-// Define o número do WhatsApp (substitua pelo correto)
+// Define o número do WhatsApp 
 const numeroWhatsApp = "5543984497729"; 
 const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
 
