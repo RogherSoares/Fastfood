@@ -15,12 +15,15 @@ Este é um projeto desenvolvido para a disciplina de Front-End no curso de Anál
   <img src="img/Site.png" alt="Logo do Fast Food" width="800"><br>
   <img src="img/TelaAcomnhamentos.png" alt="Tela de Acompanhamentos" width="800"><br>
   <img src="img/TelaBebidas.png" alt="Tela de Bebidas" width="800"><br>
+  <img src="img/MenuPopUp.png" alt="Menu Pop-Up" width="800"><br>
+  <img src="img/PedidoWhats.png" alt="Pedido Whats" width="800"><br>
 
 ---
 ## 📋 Funcionalidades
 
 - Cardápio completo.
-- Botão de contato WhatsApp.
+- Cesta de compras.
+- Menu pop-up com o pedido e redirecionamento para o WhtasApp
 
 ---
 ## 📂 Estrutura do Projeto
