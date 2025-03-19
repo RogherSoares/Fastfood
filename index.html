@@ -22,10 +22,19 @@
 
     </header>
 
-    <div id="whatsapp"><!-- Botão para fazer o pedido no Whatsapp-->
+    <!-- Botão da sacola de compras -->
+    <div id="sacolaCompra">
+        <button class="btn" id="popupCompra"><img src="img/SacolaDeCompras.svg" alt="Sacola de compras"></button>
+    </div>
 
-        <a href="https://wa.me/5543984497729?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!" target="_blank"><img class="img-whats" src="img/whats.png" alt="WhatsApp"></a>
-
+    <!-- Pop-up de pedidos -->
+    <div class="popupContainer" id="popupMenu">
+        <h3>Seu Pedido:</h3>
+        <ul id="lista-pedido">
+            
+        </ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button id="finalizarPedido">Finalizar Pedido</button>
     </div>
 
     <main>
@@ -41,6 +50,7 @@
                     <h3>Combo Especial</h3>
                     <p>1 Special Burguer, 1 porção de Batata Frita, 1 Suco 300ml ou Refrigerante Lata</p> <br> 
                     <span class="preco">55,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -49,6 +59,7 @@
                     <h3>Cheese Burguer em Dobro</h3>
                     <p>Na compra de um Cheese Burguer por mais 5 R$ você leva o segundo!</p> <br> 
                     <span class="preco">25,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -57,6 +68,7 @@
                     <h3>Vitamina em Dobro</h3>
                     <p>Na compra de uma Vitamina Leve a Segunda <strong>TOTALMENTE DE GRAÇA!</strong></p> <br> 
                     <span class="preco">17,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
             </div>
 
@@ -76,6 +88,7 @@
                     <h3>Cheese Burguer</h3>
                     <p>Pão, Hamburguer Artesanal de 200g e 2 fatias de queijo prato.</p> <br> 
                     <span class="preco">20,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -84,6 +97,7 @@
                     <h3>Cheese Burguer Bacon</h3>
                     <p>Pão, Hamburguer Artesanal de 200g, 2 fatias de queijo prato e Bacon em fatias.</p> <br> 
                     <span class="preco">25,50 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -92,6 +106,7 @@
                     <h3>Chicken Burguer</h3>
                     <p>Pão, Filé de Frango de 200g e 2 fatias de queijo prato.</p> <br> 
                     <span class="preco">18,90 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -100,6 +115,7 @@
                     <h3>Cheese Salad</h3>
                     <p>Pão, Hamburguer Artesanal de 150g, 2 fatias de queijo prato, Alface e Tomate.</p> <br> 
                     <span class="preco">19,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -108,6 +124,7 @@
                     <h3>Cheese Dog</h3>
                     <p>Pão, Hamburguer Artesanal de 200g, Salsicha e 2 fatias de queijo prato.</p> <br> 
                     <span class="preco">20,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -116,6 +133,7 @@
                     <h3>Cheese Burguer Duplo</h3>
                     <p>Pão, 2 Hamburguer Artesanal de 200g e 4 fatias de queijo prato.</p> <br> 
                     <span class="preco">35,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -124,6 +142,7 @@
                     <h3>Cheese Burguer Bacon Duplo</h3>
                     <p>Pão, 2 Hamburguer Artesanal de 200g, 4 fatias de queijo prato e Bacon em fatias.</p> <br> 
                     <span class="preco">42,50 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -132,6 +151,7 @@
                     <h3>Special Burguer</h3>
                     <p>Pão, Hamburguer Artesanal de 200g, File de Frango, Salsicha, 2 fatias de queijo prato e Bacon em fatias.</p> <br> 
                     <span class="preco">45,50 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -140,6 +160,7 @@
                     <h3>Special Burguer Duplo</h3>
                     <p>Pão, 2 Hamburguer Artesanal de 200g, File de Frango, 2 Salsichas, 4 fatias de queijo prato e Bacon em fatias.</p> <br> 
                     <span class="preco">55,50 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
 
             </div>
@@ -158,6 +179,7 @@
                     <h3>Batata Frita</h3>
                     <p>Porção Individual de Batata Frita</p> <br> 
                     <span class="preco">07,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -166,6 +188,7 @@
                     <h3>Anéis de Cebola</h3>
                     <p>Porção Individual de Aneis de Cebola</p> <br> 
                     <span class="preco">10,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -174,6 +197,7 @@
                     <h3>Nuguets</h3>
                     <p>Porção Individual de Nuguets</p> <br> 
                     <span class="preco">10,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -182,6 +206,7 @@
                     <h3>Batata Extrema</h3>
                     <p>Porção Individual de Batata Frita com Chedar e Bacon</p> <br> 
                     <span class="preco">17,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -190,6 +215,7 @@
                     <h3>Batata BatataRustica</h3>
                     <p>Porção Individual de Batata Rustica com tempero especial da Casa</p> <br> 
                     <span class="preco">12,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -198,6 +224,7 @@
                     <h3>Stick Cheese</h3>
                     <p>Porção Individual de deliciosos palitos de queijo empanados e fritos</p> <br> 
                     <span class="preco">15,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
 
             </div>
@@ -216,6 +243,7 @@
                     <h3>Vitamina da Casa</h3>
                     <p>Uma deliciosa Vitamina de Abacate artesanal, copo de 500 ml</p> <br> 
                     <span class="preco">17,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -224,6 +252,7 @@
                     <h3>Coca Cola Lata</h3>
                     <p>300ml</p> <br> 
                     <span class="preco">07,50 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -232,6 +261,7 @@
                     <h3>Guaraná Lata</h3>
                     <p>300ml</p> <br> 
                     <span class="preco">06,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -240,6 +270,7 @@
                     <h3>Coca Cola</h3>
                     <p>2 litros</p> <br> 
                     <span class="preco">15,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -248,6 +279,7 @@
                     <h3>Fanta Laranja</h3>
                     <p>2 litros</p> <br> 
                     <span class="preco">12,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -256,6 +288,7 @@
                     <h3>sprite</h3>
                     <p>2 litros</p> <br> 
                     <span class="preco">12,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -264,6 +297,7 @@
                     <h3>Guaraná</h3>
                     <p>2 litros</p> <br> 
                     <span class="preco">12,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -272,6 +306,7 @@
                     <h3>Suco de Laranja</h3>
                     <p>300 ml</p> <br> 
                     <span class="preco">07,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -280,6 +315,7 @@
                     <h3>Suco de Laranja</h3>
                     <p>900 ml</p> <br> 
                     <span class="preco">15,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -288,6 +324,7 @@
                     <h3>Suco de Limão</h3>
                     <p>300 ml</p> <br> 
                     <span class="preco">07,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -296,6 +333,7 @@
                     <h3>Suco de Limão</h3>
                     <p>900 ml</p> <br> 
                     <span class="preco">15,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -304,6 +342,7 @@
                     <h3>Suco de Uva</h3>
                     <p>300 ml</p> <br> 
                     <span class="preco">07,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -312,6 +351,7 @@
                     <h3>Suco de Uva</h3>
                     <p>900 ml</p> <br> 
                     <span class="preco">15,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -320,6 +360,7 @@
                     <h3>Suco de Goiaba</h3>
                     <p>300 ml</p> <br> 
                     <span class="preco">07,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
                 <div class="produto">
                     <figure>
@@ -328,6 +369,7 @@
                     <h3>Suco de Goiaba</h3>
                     <p>900 ml</p> <br> 
                     <span class="preco">15,00 R$</span>
+                    <button class="adicionar">Adicionar</button>
                 </div>
 
 
@@ -346,5 +388,7 @@
     <footer> <!-- Rodapé -->
         <p>&copy; 2025 - King Burguer. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
-</h
+</html>
