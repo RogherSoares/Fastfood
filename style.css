@@ -319,6 +319,17 @@ footer {
         width: 60px;
         height: 60px;
     }
+
+    /* Menu Pop-Up responsivo*/
+    .popupContainer {
+        width: 90%; 
+        padding: 1.5rem; 
+    }
+
+    #finalizarPedido {
+        font-size: 1.4rem; 
+        padding: 0.8rem;
+    }
 }
 
 @media (min-width: 760px) and (max-width: 1400px) {
