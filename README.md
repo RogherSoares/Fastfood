@@ -7,6 +7,7 @@ Este é um projeto desenvolvido para a disciplina de Front-End no curso de Anál
 
 - HTML5
 - CSS3
+- JavaScript
 
 ---
 ## 📸 Captura de Tela do Site
@@ -33,6 +34,8 @@ Este é um projeto desenvolvido para a disciplina de Front-End no curso de Anál
 ├── index.html          (Página inicial)
 ├── css/
 │   ├── style.css       (Estilo principal)
+├── js/
+│   ├── main.js       (Scripts principais)
 ├── img/
 │   ├── logo.png        (Logo do fast food)
 │   ├── (outras imagens)
